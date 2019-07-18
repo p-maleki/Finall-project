@@ -1,12 +1,15 @@
 # Finall-project
 admin blog
+
  Hii ...
  
  
- clone project 
- cd myapp
-   npm i 
+ clone project /
+ 
+ cd myapp/
+   npm i /
+   
    npm start 
      
- cd panel 
+ cd panel /
   yarn build
