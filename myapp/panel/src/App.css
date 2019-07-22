@@ -50,11 +50,13 @@ a:hover{
   border-top: 1px solid #6c757d !important;
 }
 
-
+.btn {
+  border: none !important;
+}
 
 .btn:hover{
   color:#871E9A;
-  border-color:#871E9A;
+  border-color:none !important;
 }
 
 
