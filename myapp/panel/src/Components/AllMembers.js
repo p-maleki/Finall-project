@@ -71,7 +71,7 @@ class AllMembers extends Component {
                     <h3 style={{ paddingBottom: 40 , color:'#871E9A'}}>همه کاربران</h3>
 
                     {members.map(member => {
-                        return <Card className="mb-4" style={{ borderColor: '#871E9A' }}>
+                        return <Card className="mb-4" style={{ borderColor: '#6c757d' }}>
                             <ListGroup variant="flush">
                                 <ListGroup.Item><b>نام: &nbsp;&nbsp;&nbsp;</b>{member.firstname}</ListGroup.Item>
                                 <ListGroup.Item><b>نام خانوادگی:&nbsp;&nbsp;&nbsp;</b>{member.lastname}</ListGroup.Item>
