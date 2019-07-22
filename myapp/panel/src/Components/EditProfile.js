@@ -71,7 +71,7 @@ class EditProfile extends Component {
                     {this.state.profile.map(profile => {
                         return isOnEdit ?
                             <>
-                                <Card style={{borderColor:"#871E9A",marginBottom:'30px',marginTop:'20px'}}>
+                                <Card style={{borderColor:"#6c757d",marginBottom:'30px',marginTop:'20px'}}>
                                     <Form onSubmit={this.onSubmit} style={{marginLeft: '50px',textAlign:"right" ,direction:"rtl",marginRight:'50px',paddingTop:20}} >
                                         <Form.Group as={Row}>
                                             <Form.Label style={{marginTop: '8px'}} sm="6"><b>نام: </b></Form.Label> 
