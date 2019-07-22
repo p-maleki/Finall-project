@@ -55,7 +55,7 @@ class AllComments extends Component {
                     <h3 style={{ paddingBottom: 40 , color:'#871E9A' }}>همه کامنت ها</h3>
 
                     {Comments.map(comment => {
-                        return <Card className="mb-4" style={{ borderColor: '#871E9A' }}>
+                        return <Card className="mb-4" style={{ borderColor: '#6c757d' }}>
                             <Card.Body>
                                 <Card.Subtitle className="text-muted">{comment.username}</Card.Subtitle>
                                 <Card.Text className="my-2">{comment.text}</Card.Text>
