@@ -167,7 +167,7 @@ class MyArticle extends Component {
                     <h3 style={{ paddingBottom: 40,direction:"rtl",textAlign:"right",color:"#871E9A" }}>مقاله های من</h3>
 
                     {myArticles.map(article => {
-                    return <Card className="mb-4" style={{ borderColor: '#871E9A', direction:"rtl",textAlign:"right" }}>
+                    return <Card className="mb-4" style={{ borderColor: '#6c757d', direction:"rtl",textAlign:"right" }}>
                         <Card.Header as="h5">عنوان مقاله: {article.title}</Card.Header>
                         <Card.Body>
                             <Card.Subtitle className="text-muted">نویسنده مقاله: {article.author}</Card.Subtitle>
