@@ -26,6 +26,9 @@ a:hover{
   text-decoration: none;
 }
  
+.card-header:first-child {
+  color:#871E9A;
+}
 
 .App-header {
   background-color: #6c757d !important;
