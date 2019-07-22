@@ -44,7 +44,7 @@ class ArticleComponent extends Component {
         const { open } = this.state;
         return (
 
-            <Card className="mb-4" style={{ borderColor: '#871E9A' }}>
+            <Card className="mb-4" style={{ borderColor: '#6c757d' }}>
                 <Card.Header as="h5">عنوان مقاله: {article.title}</Card.Header>
                 <Card.Body>
                     <Card.Subtitle className="text-muted">نویسنده مقاله: {article.author}</Card.Subtitle>
